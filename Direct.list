@@ -1,0 +1,58 @@
+# 直连补充列表(国内域名不解析时，防止走代理使用)
+
+# 域名关键字匹配
+DOMAIN-KEYWORD,baidu
+
+# 国内DNS
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,doh.pub
+IP-CIDR,219.146.1.66/32,no-resolve
+IP-CIDR,219.147.1.66/32,no-resolve
+IP-CIDR,119.29.29.29/32,no-resolve
+IP-CIDR,223.5.5.5/32,no-resolve
+IP-CIDR,223.6.6.6/32,no-resolve
+IP-CIDR,180.76.76.76/32,no-resolve
+IP-CIDR,114.114.114.114/32,no-resolve
+IP-CIDR,114.114.115.115/32,no-resolve
+
+# 58
+DOMAIN-SUFFIX,58.com
+
+# Baidu
+DOMAIN-SUFFIX,baidu.com
+
+# Bilibili
+DOMAIN-SUFFIX,bilibili.com
+
+# CCTV
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cctvpic.com
+DOMAIN-SUFFIX,livechina.com
+
+# PDD 拼多多
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+
+# JD
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,paipai.com
+
+# Tencent
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weiyun.com
+
+# Vip 唯品会
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,vipstatic.com
+
+# Xunlei 迅雷
+DOMAIN-SUFFIX,thundercdn.com
+DOMAIN-SUFFIX,xunlei.com
